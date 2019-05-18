@@ -63,7 +63,8 @@ The following steps will get you up and running.
 Also
 
 1. Clone a local copy of the repository
-2. Run the application with `yarn serve`
+2. Call `yarn` to download dependenceies
+3. Run the application with `yarn serve`
 
 #### Netlify
 Netlify is a super easy platform for building, deploying, and serving sweet modern web apps. It'll host a single page app statically and serve up the backend as serverless functions - super scalable, super cheap and super great.
