@@ -23,4 +23,4 @@ net.train(betterData);
 
 
 fs.writeFileSync('trained-net.js', `export default ${ net.toFunction().toString() };`);
-console.log('you have done it')
+console.log('done')

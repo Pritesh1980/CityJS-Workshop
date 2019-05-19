@@ -1,4 +1,4 @@
-import trainedNet from './neuralNet/trained-net'
+import trainedNet from './neuralNet/trained-net';
 
 exports.handler = function(event, context, callback) {
     const board = JSON.parse(event.body)
