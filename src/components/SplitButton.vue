@@ -1,5 +1,5 @@
 <template>
-    <div :class="$style.wrap" @click="handleClick">
+    <div :class="$style.wrap" @click=handleClick>
         <div
             :class="{
                 [$style.left]: true,

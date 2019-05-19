@@ -9,7 +9,7 @@ export async function addMove({
 }
 
 export async function getAIMove(board) {
-  return post('/.netlify/functions/neuralNet', board);
+  return post('/.netlify/functions/neural', board);
 }
 
 export default { 

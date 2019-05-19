@@ -42,7 +42,7 @@
                 @toggleLock="handleLockToggle"
                 @setTurnAi="handleSetAIturn"
             />
-            <SplitButton :mode="mode" @gameMode="modeSwitch" />
+            <SplitButton :mode="mode" @gameMode="modeSwitch"/>
             <WinBanner />
             <Button @clicked="resetGame">Reset</Button>
         </div>

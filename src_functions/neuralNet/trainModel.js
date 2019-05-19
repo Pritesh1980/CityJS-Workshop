@@ -1,5 +1,5 @@
 const brain = require('brain.js/index')
-const someData = require('../trainingData/multiLabel')
+const someData = require('./trainingData/multiLabel')
 const fs = require('fs')
 
 const betterData = someData.map(set => {
@@ -23,4 +23,4 @@ net.train(betterData);
 
 
 fs.writeFileSync('trained-net.js', `export default ${ net.toFunction().toString() };`);
-console.log('youve done it')
+console.log('you have done it')
